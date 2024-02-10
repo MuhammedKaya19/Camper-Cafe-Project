@@ -1,0 +1,64 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+body{
+     background-image: url(coffee-background.jpg);
+     color:black;
+     text-align: center;
+}
+.container{
+     background-color: rgb(231, 165, 78);
+     width: 70%;
+     margin: 50px auto;
+     max-width: 400px;
+     border-radius: 10px;
+}
+h1{
+     padding-top:10px;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h3{
+     padding-top:10px;
+}
+.est{
+     font-style: italic;
+     margin:5px;
+     font-size: 1rem;
+}
+.div{
+     display:flex;
+     justify-content: space-between;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     border: 1px dotted brown;
+     border-radius: 5px;
+}
+.div li{
+     display: inline;
+     margin-top:7px;
+     margin-left:5px;
+     margin-right:5px;
+     
+}
+.section{
+     padding:0px 10px
+}
+.visited{
+     text-decoration: underline;
+     font-size: 1rem;
+     margin-top:0.5rem;
+}
+.subt{
+     font-size:12px;
+     margin: 5px 0px;
+     padding: 7px;
+}
+hr{
+     background-color: brown;
+     height:5px;
+     margin: 5px;
+}
+i{
+     margin: 7px 0px;
+}
